@@ -26,7 +26,7 @@ user_dic = { 'user1': 'Ubea7f50235253321cc11825e391e92dd','user2':'U598174990ef9
 
 # 測試用
 # keyword_dic={0:'少女'}
-keyword_dic={0:'少女',1:'限量搶購',2:'顯示卡',3:'不貼保固貼紙'}
+keyword_dic={1:'限量搶購',2:'顯示卡',3:'不貼保固貼紙'}
 
 # log記錄腳本執行的時間，改要儲存的路徑
 f=open('fb_log.txt','a+')
