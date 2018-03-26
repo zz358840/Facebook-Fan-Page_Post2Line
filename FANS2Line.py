@@ -12,17 +12,17 @@ from linebot.exceptions import LineBotApiError
 # 在Facebook Graph API Exploer取得token(自己新建應用程式)，最長只能到2個月
 # 參考
 # http://blog.csdn.net/mochong/article/details/60872512
-fb_token = 'EAAb9jaZBAP58BAAN72VXZAiog2IvZCIIJ634b07RIVxzg6aqE8LUPeJlMOVVwXWVwika2lLrvP2EN6pV8wqB32yMrWZAmPPvBvTkfIUee8ajQVw3RYPw0OOoarMw4YkYhjCPZBkNqkSo3mtEwYyLZB2P6vlQlq3souCwzVudbPeAZDZD'
+fb_token = ''
 
 # developers.line.me/console/取得Channel access token
 # 參考
 # https://medium.com/@lukehong/%E5%88%9D%E6%AC%A1%E5%98%97%E8%A9%A6-line-bot-sdk-eaa4abbe8d6e
-line_bot_api = LineBotApi('9eJEqukDtah4hl8la1VDq3NAAVymZVwQdDe6yGHK7AglA42gcdwgWTR/IJghRopBx0rHLbzPQR8iUlHp3Fi/txa0Fvh+9tjX51GaihlYIYFFB4ZD3eznPRnAo5VLutpVqNBXpCcF4/0mHy0Yph3UFwdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('')
 
 # 在Facebook Graph API Exploer取得粉絲專頁的id與名稱，並將其包成字典dic
 fanspage_dic = {'169635866411766':'原價屋coolpc'}
 
-user_dic = { 'user1': 'Ubea7f50235253321cc11825e391e92dd','user2':'U598174990ef971f4055bbba84db57a3e'}
+user_dic = { 'user1': ''}
 
 # 測試用
 # keyword_dic={0:'少女'}
